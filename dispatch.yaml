@@ -1,0 +1,5 @@
+application: reddlist
+
+dispatch:
+	- url: "*/*"
+	  module: frontend
