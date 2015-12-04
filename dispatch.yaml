@@ -1,5 +1,8 @@
 application: reddlist
 
 dispatch:
-	- url: "*/*"
-	  module: frontend
+  - url: "*/api/*"
+    module: default
+
+  - url: "*/*"
+    module: frontend
